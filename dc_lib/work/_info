@@ -10,42 +10,42 @@ z2
 cModel Technology
 dC:/Users/user/Downloads/avg/verilog/hw2
 vmac
-!s110 1699108405
+Z0 !s110 1699109181
 !i10b 1
-!s100 hzBQDX9G=7;62::TiL48]0
-Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IVT3e0Lae4EGBeFOe:@HcY2
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Verilog2023-1/dc_lib
-w1699108400
+!s100 2z@YZ55n2;Mi[`YM>BZ9J1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I03gD9oQ3YnQe:GcPW=e@>3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Verilog2023-1/dc_lib
+w1699109164
 8C:/Verilog2023-1/dc_lib/mac.v
 FC:/Verilog2023-1/dc_lib/mac.v
-!i122 98
+!i122 100
 L0 1 233
-Z3 OV;L;2020.1;71
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z4 !s108 1699108405.000000
+Z5 !s108 1699109181.000000
 !s107 C:/Verilog2023-1/dc_lib/mac.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog2023-1/dc_lib/mac.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 vmac_half_tb001
 !s110 1699079719
 !i10b 1
 !s100 8lEZI1n@0eL6:fFTV5NY73
-R0
-I_odfG0ZUFb=bz;^KDNHN31
 R1
+I_odfG0ZUFb=bz;^KDNHN31
 R2
+R3
 w1699079651
 8C:/Verilog2023-1/dc_lib/mac_half_tb00-2.v
 FC:/Verilog2023-1/dc_lib/mac_half_tb00-2.v
 !i122 23
 L0 11 85
-R3
+R4
 r1
 !s85 0
 31
@@ -53,45 +53,45 @@ r1
 !s107 C:/Verilog2023-1/dc_lib/mac_half_tb00-2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog2023-1/dc_lib/mac_half_tb00-2.v|
 !i113 1
-R5
 R6
+R7
 vmac_sim
-!s110 1699108406
+R0
 !i10b 1
 !s100 lb`Og0B:9QWC0TcB[VO8O1
-R0
-IjU@3J0QWYb?NMSo_^oZCD0
 R1
+IjU@3J0QWYb?NMSo_^oZCD0
 R2
+R3
 w1699078808
 8C:/Verilog2023-1/dc_lib/testfixture.v
 FC:/Verilog2023-1/dc_lib/testfixture.v
-!i122 99
+!i122 101
 L0 36 356
-R3
+R4
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Verilog2023-1/dc_lib/testfixture.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog2023-1/dc_lib/testfixture.v|
 !i113 1
-R5
 R6
+R7
 vmactb
 !s110 1699078524
 !i10b 1
 !s100 2;WoAi;5Y2ERG9>>omOAF1
-R0
-IiEk1;`oAm^eb]aJak0Y^K1
 R1
+IiEk1;`oAm^eb]aJak0Y^K1
 R2
+R3
 w1698810556
 8C:/Verilog2023-1/dc_lib/mactb.v
 FC:/Verilog2023-1/dc_lib/mactb.v
 !i122 19
 L0 1 32
-R3
+R4
 r1
 !s85 0
 31
@@ -99,5 +99,5 @@ r1
 !s107 C:/Verilog2023-1/dc_lib/mactb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog2023-1/dc_lib/mactb.v|
 !i113 1
-R5
 R6
+R7

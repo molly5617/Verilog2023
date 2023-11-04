@@ -201,15 +201,15 @@ begin
                 temp[31:16] = 16'h7FFF;
             else if ({temp[39:36],temp[31:16]} < 20'hf8000 && temp[39] == 1'b1)
                 temp[31:16] = 16'h8000;
-            for(i=36;i<40;i=i+1)
-                temp[i]=temp[31];
+            //for(i=36;i<40;i=i+1)
+            // temp[i]=temp[31];
 
             if ({temp[35:32],temp[15:0]} > 20'h07fff && temp[35] == 1'b0)
                 temp[15:0] = 16'h7FFF;
             else if ({temp[35:32],temp[15:0]} < 20'hf8000 && temp[35] == 1'b1)
                 temp[15:0] = 16'h8000;
-            for(i=32;i<36;i=i+1)
-                temp[i]=temp[15];
+            //for(i=32;i<36;i=i+1)
+            //temp[i]=temp[15];
 
             // current result is stored in temp
         end
