@@ -1,8 +1,8 @@
-C:/Verilog2023-1/dc_lib/mactb.v {1 {vlog -work work -stats=none C:/Verilog2023-1/dc_lib/mactb.v
+C:/Verilog2023-1/dc_lib/testfixture.v {1 {vlog -work work -stats=none C:/Verilog2023-1/dc_lib/testfixture.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mactb
+-- Compiling module mac_sim
 
 Top level modules:
-	mactb
+	mac_sim
 
 } {} {}}

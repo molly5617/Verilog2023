@@ -1,13 +1,33 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /mactb/clk
-add wave -noupdate /mactb/reset_n
-add wave -noupdate /mactb/instruction
-add wave -noupdate /mactb/multiplier
-add wave -noupdate /mactb/multiplicand
-add wave -noupdate /mactb/stall
-add wave -noupdate /mactb/protect
-add wave -noupdate /mactb/result
+add wave -noupdate /mac_sim/CLEAR
+add wave -noupdate /mac_sim/CLEAR2
+add wave -noupdate /mac_sim/MUL_16
+add wave -noupdate /mac_sim/MAC_16
+add wave -noupdate /mac_sim/SAT_16
+add wave -noupdate /mac_sim/MUL_8
+add wave -noupdate /mac_sim/MAC_8
+add wave -noupdate /mac_sim/SAT_8
+add wave -noupdate /mac_sim/NO_STALL
+add wave -noupdate /mac_sim/STALL
+add wave -noupdate /mac_sim/reset_n
+add wave -noupdate /mac_sim/clk
+add wave -noupdate /mac_sim/stall
+add wave -noupdate /mac_sim/instruction
+add wave -noupdate /mac_sim/multiplier
+add wave -noupdate /mac_sim/multiplicand
+add wave -noupdate /mac_sim/protect
+add wave -noupdate /mac_sim/result
+add wave -noupdate /mac_sim/protect_g
+add wave -noupdate /mac_sim/result_g
+add wave -noupdate /mac_sim/cycle_cnt
+add wave -noupdate /mac_sim/result_file1
+add wave -noupdate /mac_sim/result_file2
+add wave -noupdate /mac_sim/data_base
+add wave -noupdate /mac_sim/i
+add wave -noupdate /mac_sim/data_tmp
+add wave -noupdate /mac_sim/error_cnt
+add wave -noupdate /mac_sim/ready
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {0 ps} 0}
 quietly wave cursor active 0
