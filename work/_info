@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/
+vmac
+!s110 1698640910
+!i10b 1
+!s100 mU:GL_6zT2T=k4GM`nXNO1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOI0G0?oa[QK>J11c2SV]k2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Verilog2023
+w1698640905
+8E:/Verilog2023/hw2/mac_stud123.v
+FE:/Verilog2023/hw2/mac_stud123.v
+!i122 3
+L0 1 146
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1698640909.000000
+!s107 E:/Verilog2023/hw2/mac_stud123.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Verilog2023/hw2/mac_stud123.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmac_half_tb001
+!s110 1698640909
+!i10b 1
+!s100 U9gBc;^5MHK>mml>7D57z1
+R0
+I5LeTS@fQl5NFeRNL9WZFT2
+R1
+R2
+w1698638724
+8E:/Verilog2023/hw2/mac_half_tb001.v
+FE:/Verilog2023/hw2/mac_half_tb001.v
+!i122 2
+L0 11 50
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Verilog2023/hw2/mac_half_tb001.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Verilog2023/hw2/mac_half_tb001.v|
+!i113 1
+R5
+R6

@@ -51,12 +51,14 @@ begin
             begin
                 // negative number
                 notice=notice+1;// ...
+                Multiplier=~Multiplier+1;
             end
 
             if (Multiplicand[15] == 1'b1)
             begin
                 // negative number
                 notice=notice+1;// ...
+                Multiplicand=~Multiplicand+1;
 
             end
             {protect,temp}=Multiplicand*Multiplier;

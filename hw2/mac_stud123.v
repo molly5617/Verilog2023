@@ -41,7 +41,7 @@ begin
             temp = 40'd0;
         else if (instruction == 3'b001)
         begin
-            {protect[7:0],result[31:0]}=Multiplier*Multiplicand;// 16-bit x 16-bit
+            // 16-bit x 16-bit
             notice = 2'd0;
             // reset negative count
 
@@ -49,15 +49,18 @@ begin
             begin
                 // negative number
                 notice=notice+1;// ...
+                Multiplier=~Multiplier+1;
             end
 
             if (Multiplicand[15] == 1'b1)
             begin
                 // negative number
                 notice=notice+1;// ...
+                Multiplicand=~Multiplicand+1;
+
 
             end
-
+            {protect[7:0],result[31:0]}=Multiplier*Multiplicand;
             temp = {protect[7:0],result[31:0]};
 
             if (notice%2 == 1)
@@ -68,7 +71,7 @@ begin
             for (i=32; i<40; i=i+1)
                 temp[i]=temp[31];
             // sign extension
-
+            result=temp;
             // current result is stored in temp
         end
         else if (instruction == 3'b010)
