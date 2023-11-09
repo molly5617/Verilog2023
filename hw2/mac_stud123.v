@@ -121,7 +121,7 @@ begin
         else if (instruction == 3'b101)
         begin
             temp = 40'd0;
-            result=temp;
+
             // current result is stored in temp
         end
         else if (instruction == 3'b110)
