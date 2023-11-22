@@ -11,7 +11,7 @@ reg [7:0] queue [0:8];
 reg [11:0] sum;
 // for storig the sum of 9 items
 reg [7:0] temp;
-reg [7:0] min;
+reg [10:0] min;
 
 integer i;
 
@@ -25,7 +25,8 @@ begin
         avg=0;
         appr=0;
         sum=0;
-        min=0;
+        min=8'b11111111;
+
         temp=0;
 
     end
@@ -34,7 +35,7 @@ begin
         avg=0;
         appr=0;
         sum=0;
-        min=0;
+        min=8'b11111111;
         temp=0;
         for (i=0; i<8; i=i+1'b1)
         begin
@@ -45,21 +46,24 @@ begin
         // store the new input item
         queue[8]=X;
         // add the 9th item
+
         avg=(sum+queue[8])/9;
         // calculate the average
 
         for (i=0; i<9; i=i+1'b1)
         begin
-            if(queue[i]>avg)
-                temp=queue[i]-avg;
-            else
-                temp=avg-queue[i];
-
-            if(temp<=min)
+            if(queue[i]<=avg)
             begin
-                appr=queue[i];
-                min=temp;
+                temp=avg-queue[i];
+                if(temp<=min)
+                begin
+                    appr=queue[i];
+                    min=temp;
+                end
+
             end
+
+
 
 
         end

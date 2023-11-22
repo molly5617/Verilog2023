@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Verilog2023-1/hw3
+vCS
+Z0 !s110 1700019183
+!i10b 1
+!s100 J`:ILmGdkTL5LUo_:MAmG0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ik?YLPT0ic:_BASFecP=Yk2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Verilog2023-1/CS_stud
+w1700019175
+8C:/Verilog2023-1/CS_stud/CS_stud.v
+FC:/Verilog2023-1/CS_stud/CS_stud.v
+!i122 23
+L0 2 77
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1700019183.000000
+!s107 C:/Verilog2023-1/CS_stud/CS_stud.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog2023-1/CS_stud/CS_stud.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@c@s
+vtest
+R0
+!i10b 1
+!s100 jcK<2b>_4cY:;4A1RTz4g3
+R1
+I@m=I2R]0<JhoRdQl8>bhh2
+R2
+R3
+w1700012890
+8C:/Verilog2023-1/CS_stud/testfixture.v
+FC:/Verilog2023-1/CS_stud/testfixture.v
+!i122 24
+L0 7 121
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Verilog2023-1/CS_stud/testfixture.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog2023-1/CS_stud/testfixture.v|
+!i113 1
+R6
+R7
